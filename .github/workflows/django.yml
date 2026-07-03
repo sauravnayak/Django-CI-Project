@@ -30,7 +30,6 @@ jobs:
       uses: lukacat10/Flake8@v5
       with:
        path: # default is .
-       max-line-length: # optional, default is 79
     
     - name: Run Tests
       run: |
